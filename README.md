@@ -1,10 +1,10 @@
+# Ex.No:2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
+
 # Name: Sri Vignesh G
 # Regiter Number: 212223040204
 
-# Ex:2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
-
 ## AIM:
-    To write a program to implement a sliding window protocol.
+To write a program to implement a sliding window protocol.
 
 ## ALGORITHM:
 1. Start the program.
@@ -14,7 +14,7 @@
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 
-## PROGRA
+## PROGRAM:
 
 ### Client.py
 ```
@@ -48,7 +48,7 @@ while True:
  s.send("acknowledgement received from the server".encode())
 ```
 
-## OUTPUT
+## OUTPUT:
 
 ### Client.py:
 ![client output](./client.png)
@@ -56,5 +56,5 @@ while True:
 ### Server.py:
 ![server output](./server.png)
 
-## RESULT
+## RESULT:
 Thus, python program to perform stop and wait protocol was successfully executed
